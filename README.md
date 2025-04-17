@@ -1,4 +1,4 @@
-This 912-line script brings smart, player-like AI behavior to your game! Here's what it does:
+This 900-line script brings smart, player-like AI behavior to your game! Here's what it does:
 
 o Targeting System 🔄: Tracks the nearest enemy, switches targets intelligently, and avoids constant switching.
 
