@@ -386,23 +386,6 @@ public class AICarControllerTeam1 : MonoBehaviourPun
                     }
 
                     #region MotorForce_Value and Drag_cValue Change with Distance (Comented Out)
-                    /* if (distance <= 1f)
-                     {
-                         Acceleration = motorForce;
-                         targetDrag = defaultDrag;
-                     }
-                     else if (distance <= 10f)
-                     {
-                         Acceleration = motorForce;
-                         targetDrag = defaultDrag;
-                     }
-                     else if (distance <= 40f)
-                     {
-                         Acceleration = motorForce;
-                         targetDrag = defaultDrag;
-                     }
-                     else
-                     {*/
                     #endregion
                 }
                 rearLeftWheelCollider.motorTorque = MotorForce_Value;
@@ -929,8 +912,4 @@ public class AICarControllerTeam1 : MonoBehaviourPun
             }
         }
     }
-
-
-
-
 }
